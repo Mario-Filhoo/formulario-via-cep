@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #454d6b;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+    background-color: rgba(5, 5, 5, 0.3);
+    padding: 40px;
+    border-radius: 2px;
+    width: 300px;
+}
+
+.card-header {
+    padding-bottom: 30px;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.card-header-::after {
+    content: "";
+    width: 70px;
+    background-color: #fcfcfc;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+
+.card-content-label {
+    color: #fffdfd;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.card-content-area input {
+    margin-top: 10px;
+    padding: 0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer .submit {
+    width: 100%;
+    height: 40px;
+    background-color: #d3141d;
+    border: none;
+    color: #e1e1e1;
+    margin: 10px 0 ;
+}
+
+.carf-footer a {
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.9;
+    color: white;
+    text-decoration: none;
+}
